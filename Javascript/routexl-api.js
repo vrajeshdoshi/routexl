@@ -32,7 +32,7 @@ function RouteXL_API_Connector() {
 		var request = jQuery.ajax({
 
 			beforeSend: function (xhr) {
-			    xhr.setRequestHeader ("Authorization", "Basic " + btoa("username:password"));
+			    xhr.setRequestHeader ("Authorization", "Basic " + btoa("vrajeshdoshi:1routexl$"));
 			},
 
 			url: "https://api.routexl.nl/tour",
